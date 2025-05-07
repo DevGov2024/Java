@@ -8,7 +8,7 @@ Funcionalidade: Cadastro de novo trajeto
       | campo          | valor        |
       | nomeRua   | Viaduto do Chá            |
       | nomeMotorista | Gabriel Henrique    |
-      | statusTrajeto  | Seguro |
+      | statusTrajeto  | Muito seguro |
       | dataTrajeto    | 2024-08-22   |
     Quando eu enviar a requisição para o endpoint "/entregas" de cadastro de trajetos
     Então o status code da resposta deve ser 201
